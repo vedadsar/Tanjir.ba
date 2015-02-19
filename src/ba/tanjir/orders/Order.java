@@ -21,4 +21,11 @@ public class Order {
 	public ArrayList<Meal> orderList;
 	public double totalPrice;
 	
+	
+	/**
+	 * Static method which will create order.
+	 */
+	public static void createOrder(){
+		
+	}
 }

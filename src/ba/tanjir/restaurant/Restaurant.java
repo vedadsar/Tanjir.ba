@@ -1,8 +1,7 @@
 package ba.tanjir.restaurant;
 
 import java.util.ArrayList;
-
-import ba.tanjir.user.User;
+import ba.tanjir.user.*;
 
 /**
  * This class represents restaurant on our service.
@@ -23,7 +22,7 @@ public class Restaurant {
 	//@ID
 	public String PDVNumber;
 	public String restaurantName;
-	public User[] administrators;	//After creating two classes Customer, RestaurantOwner ( admin ) change this user --> ROwner.
+	public RestaurantAdministrator[] administrators;
 	
 	public String cityLocation;	
 	public String adress;

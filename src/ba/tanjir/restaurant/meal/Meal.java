@@ -29,7 +29,7 @@ public class Meal {
 	public Meal(int id, String name, double price, String description,
 			URL imageURL, LinkedList<Portions> portions,
 			LinkedList<SideDish> sideDishes) {
-		
+		//TODO fix price of meal depending on side dishes and portion additional price.
 		this.id = id;
 		this.name = name;
 		this.price = price;
