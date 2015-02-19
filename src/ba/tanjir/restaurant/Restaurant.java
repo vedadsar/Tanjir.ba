@@ -1,5 +1,7 @@
 package ba.tanjir.restaurant;
 
+import java.util.ArrayList;
+
 import ba.tanjir.user.User;
 
 /**
@@ -8,6 +10,8 @@ import ba.tanjir.user.User;
  * This class will have all informations about this restaurant.
  * This class will have a administrator which will represent owner of restaurant.
  * Each restaurant may have more then one administrators.
+ * Restaurants also have description, array list of rates ( which will be integers )
+ * and array list of comments.
  * 
  * TODO Create all classes which are not created, and maybe separate them into "info" package.
  * 
@@ -28,4 +32,8 @@ public class Restaurant {
 	public String deliveryTime;
 	public String orderTime;
 	public int minOrder;
+	
+	public String description;
+	public ArrayList<Integer> rating;
+	public ArrayList<String> comments;
 }
