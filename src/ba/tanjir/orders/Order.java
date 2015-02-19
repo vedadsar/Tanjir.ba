@@ -2,13 +2,14 @@ package ba.tanjir.orders;
 
 import java.util.ArrayList;
 
-import ba.tanjir.restaurant.Meal;
 import ba.tanjir.restaurant.Restaurant;
+import ba.tanjir.restaurant.meal.Meal;
 import ba.tanjir.user.Customer;
 
 /**
  * Class which creates new order.
  * Each order has unique id and will be primary key in our db.
+ * Order will have 
  * @author vedadzornic
  *
  */
