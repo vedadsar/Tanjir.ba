@@ -19,14 +19,13 @@ public class Order {
 	public int id;
 	public Customer userOrdered;
 	public Restaurant restaurant;
-	public ArrayList<Meal> orderList;
+	public ArrayList<Meal> cart;
 	public double totalPrice;
+	public Status orderStatus;
 	
 	
 	/**
 	 * Static method which will create order.
 	 */
-	public static void createOrder(){
-		
-	}
+	public static void createOrder(ArrayList<Meal> cart){}
 }
