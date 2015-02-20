@@ -24,9 +24,5 @@ public class Customer extends User {
 		this.credits = 0;
 	
 	}
-	
-	
-	
-
 
 }

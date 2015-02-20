@@ -11,8 +11,7 @@ package ba.tanjir.model.user;
  * 
  * Customer will have rights only to edit his own informations as
  * name, surname etc. and rights to order food. 
- * 
- * TODO create two classes Customer, Administrator which will extend this class.
+ * TODO fixing primary key ( email might be buggy )
  * TODO superAdmin class which will represent administrator of our service.
  * TODO create class UsersInfo which will contain all editable informations of user.
  * @author vedadzornic
@@ -57,5 +56,44 @@ public class User {
 		this.city = city;
 		this.adress = adress;
 	}	
-		
+	
+	
+	/**
+	 * Method for adding new user.
+	 * @param u
+	 * @return
+	 */
+	public static boolean addUser(User u){
+		return true;
+	}
+	
+	/**
+	 * Method which removes existing user.
+	 * TODO parameter which we'll use for primary key of user.
+	 * @param email
+	 * @return
+	 */
+	public static boolean removeUser(String email/* PK to be decided */){
+		return true;
+	}
+	
+	/**
+	 * Method which search in our database for user.
+	 * As parameter it receive users type ( restaurant admin or customer)
+	 * and email of user (PK).
+	 * @param TYPE_OF_USER
+	 * @param email
+	 * @return
+	 */
+	public static boolean find(int TYPE_OF_USER, String email){
+		return true;
+	}
+	
+	/**
+	 * Method for updating user.
+	 * @return
+	 */
+	public static boolean update(/*TODO*/){
+		return true;
+	}
 }
