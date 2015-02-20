@@ -14,6 +14,7 @@ import ba.tanjir.user.Customer;
  */
 public class Order {
 
+	//@ID
 	public int id;
 	public Customer userOrdered;
 	public Restaurant restaurant;
