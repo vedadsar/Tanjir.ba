@@ -1,4 +1,4 @@
-package ba.tanjir.restaurant.meal;
+package ba.tanjir.model.restaurant.meal;
 
 import java.net.URL;
 import java.util.LinkedList;

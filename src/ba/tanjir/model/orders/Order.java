@@ -1,10 +1,10 @@
-package ba.tanjir.orders;
+package ba.tanjir.model.orders;
 
 import java.util.ArrayList;
 
-import ba.tanjir.restaurant.Restaurant;
-import ba.tanjir.restaurant.meal.Meal;
-import ba.tanjir.user.Customer;
+import ba.tanjir.model.restaurant.Restaurant;
+import ba.tanjir.model.restaurant.meal.Meal;
+import ba.tanjir.model.user.Customer;
 
 /**
  * Class which creates new order.

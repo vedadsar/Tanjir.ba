@@ -1,4 +1,4 @@
-package ba.tanjir.user;
+package ba.tanjir.model.user;
 
 /**
  * This class creates owner of restaurant or its manager.

@@ -1,4 +1,4 @@
-package ba.tanjir.restaurant.review;
+package ba.tanjir.model.restaurant.review;
 
 import java.util.ArrayList;
 

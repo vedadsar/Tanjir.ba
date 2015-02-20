@@ -1,8 +1,8 @@
-package ba.tanjir.restaurant;
+package ba.tanjir.model.restaurant;
 
 import java.util.ArrayList;
 
-import ba.tanjir.restaurant.meal.Meal;
+import ba.tanjir.model.restaurant.meal.Meal;
 
 /**
  * This class is creating menu of restaurant.

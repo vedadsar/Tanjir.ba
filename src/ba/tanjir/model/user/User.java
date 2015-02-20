@@ -1,4 +1,4 @@
-package ba.tanjir.user;
+package ba.tanjir.model.user;
 
 /**
  * Class which simulates user of our service.

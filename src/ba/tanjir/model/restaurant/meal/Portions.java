@@ -1,4 +1,4 @@
-package ba.tanjir.restaurant.meal;
+package ba.tanjir.model.restaurant.meal;
 
 /**
  * This class will represent "porcije" on our service.

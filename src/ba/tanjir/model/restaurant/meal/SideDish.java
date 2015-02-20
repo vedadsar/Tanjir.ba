@@ -1,4 +1,4 @@
-package ba.tanjir.restaurant.meal;
+package ba.tanjir.model.restaurant.meal;
 
 /**
  * Class which creates side dish on our meal.

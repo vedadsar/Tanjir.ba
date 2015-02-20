@@ -1,6 +1,6 @@
-package ba.tanjir.restaurant.review;
+package ba.tanjir.model.restaurant.review;
 
-import ba.tanjir.user.Customer;
+import ba.tanjir.model.user.Customer;
 
 /**
  * Class that creates single vote/rate.
