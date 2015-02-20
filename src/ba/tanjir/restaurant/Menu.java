@@ -2,6 +2,8 @@ package ba.tanjir.restaurant;
 
 import java.util.ArrayList;
 
+import ba.tanjir.restaurant.meal.Meal;
+
 /**
  * This class is creating menu of restaurant.
  * It will have methods to put meal in menu, and remove one from it.
